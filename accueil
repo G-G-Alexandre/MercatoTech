@@ -314,9 +314,11 @@
 
             <div class="buttons">
 
-                <button class="btn btn-primary">
-                    Explorer
-                </button>
+                <a href="catalogue.html">
+					<button class="btn btn-primary">
+						Explorer
+					</button>
+				</a>
 
                 <button class="btn btn-secondary">
                     Vendre un produit
