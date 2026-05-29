@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paiement Sécurisé - Mercato Nova</title>
 
+</head>
+<body>
+
+    <nav>
+        <a href="accueil.php" class="logo">Mercato Nova</a>
+    </nav>
+ <footer>
+        <p>© 2026 Mercato Nova - Tunnel de paiement de démonstration</p>
+</footer>
+</body>
+</html>
