@@ -4,7 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion - Mercato Nova</title>
+    <style>
 
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: #f8fafc;
+            color: #0f172a;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 60px;
+            background-color: #0f172a;
+        }
+
+        .logo{
+            font-size: 30px;
+            font-weight: bold;
+            color: #38bdf8;
+        }
+
+        nav ul{
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover{
+            color: #38bdf8;
+        }
+
+        .container{
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .box{
+            background: white;
+            width: 500px;
+            padding: 50px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .box h1{
+            margin-bottom: 20px;
+            font-size: 42px;
+        }
+
+        .box p{
+            color: #64748b;
+            margin-bottom: 40px;
+            font-size: 18px;
+        }
+
+        .choice{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .btn{
+            padding: 18px;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .btn-register{
+            background-color: #38bdf8;
+            color: white;
+        }
+
+        .btn-register:hover{
+            background-color: #0ea5e9;
+        }
+
+        .btn-login{
+            background-color: #0f172a;
+            color: white;
+        }
+
+        .btn-login:hover{
+            background-color: #1e293b;
+        }
+
+        footer{
+            background-color: #0f172a;
+            text-align: center;
+            padding: 25px;
+            color: white;
+        }
+
+    </style>
 </head>
 
 <body>
