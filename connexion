@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Mercato Nova</title>
 
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+            Mercato Nova
+        </div>
+
+        <ul>
+            <li><a href="accueil.php">Accueil</a></li>
+            <li><a href="catalogue.php">Catalogue</a></li>
+            <li><a href="encheres.php">Enchères</a></li>
+        </ul>
+
+    </nav>
+    <footer>
+
+        <p>
+            © 2026 Mercato Nova - Tous droits réservés
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
