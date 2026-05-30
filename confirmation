@@ -6,9 +6,24 @@
     <title>Commande Confirmée ! - Mercato Nova</title>
 </head>
 <body>
+    <nav>
+        <a href="accueil.php" class="logo">Mercato Nova</a>
+    </nav>
 
+    <div class="success-container">
+        <div class="success-icon">🎉</div>
+        <h1>Merci pour votre commande !</h1>
+        <p>Votre paiement a été accepté avec succès. Un e-mail de confirmation contenant votre facture et les détails de suivi vous a été envoyé.</p>
+        
+        <div class="order-badge">
+            N° de commande : #<?= htmlspecialchars($commande_id) ?>
+        </div>
+
+        <div>
+            <a href="catalogue.php" class="btn-home">Retourner au Catalogue</a>
+        </div>
+    </div>
     
-
     <footer>
         <p>© 2026 Mercato Nova - Tous droits réservés</p>
     </footer>
