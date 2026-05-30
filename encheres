@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enchères - Mercato Nova</title>
+    <title>Enchères - MercaTech</title>
 
     <style>
 
@@ -178,8 +178,6 @@
             font-size: 18px;
         }
 
-        /* BID SECTION */
-
         .bid-section{
             display: flex;
             gap: 10px;
@@ -279,9 +277,8 @@
 <body>
 
     <nav>
-
         <div class="logo">
-            Mercato Nova
+            MercaTech
         </div>
 
         <ul>
@@ -294,8 +291,6 @@
 
     </nav>
 
-    <!-- HERO -->
-
     <section class="hero">
 
         <h1>Enchères en direct 🔥</h1>
@@ -305,7 +300,6 @@
         </p>
 
     </section>
-
 
     <section class="top-bar">
 
@@ -335,7 +329,6 @@
         <div class="auction-grid">
 
             <!-- AUCTION 1 -->
-
             <div class="auction-card">
 
                 <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?q=80&w=1170&auto=format&fit=crop" alt="PS5">
@@ -383,7 +376,6 @@
             </div>
 
             <!-- AUCTION 2 -->
-
             <div class="auction-card">
 
                 <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1170&auto=format&fit=crop" alt="iPhone">
@@ -431,7 +423,6 @@
             </div>
 
             <!-- AUCTION 3 -->
-
             <div class="auction-card">
 
                 <img src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1170&auto=format&fit=crop" alt="PC Gamer">
@@ -482,15 +473,11 @@
 
     </section>
 
-
     <footer>
-
         <p>
-            © 2026 Mercato Nova - Tous droits réservés
+            © 2026 MercaTech - Tous droits réservés
         </p>
-
     </footer>
 
 </body>
-
 </html>
