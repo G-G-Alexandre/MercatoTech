@@ -271,7 +271,33 @@
                 <button type="submit" class="pay-btn">Confirmer et Payer <?= number_format($total, 0, ',', ' ') ?>€</button>
             </form>
         </main>
+		<aside class="order-summary">
+            <h2>Résumé de la commande</h2>
+            
+            <?php foreach ($liste_panier as $item): ?>
+                <div class="summary-item">
+                    <img src="<?= htmlspecialchars($item['image'] ?? 'uploads/default.jpg') ?>" alt="<?= htmlspecialchars($item['nom']) ?>">
+                    <div class="item-details">
+                        <h4><?= htmlspecialchars($item['nom']) ?></h4>
+                        <p>Qté: <?= $item['quantite'] ?></p>
+                    </div>
+                    <div class="item-price"><?= number_format($item['prix'] * $item['quantite'], 0, ',', ' ') ?>€</div>
+                </div>
+            <?php endforeach; ?>
 
+            <div class="price-line">
+                <span>Sous-total</span>
+                <span><?= number_format($total, 0, ',', ' ') ?>€</span>
+            </div>
+            <div class="price-line">
+                <span>Livraison</span>
+                <span style="color: #22c55e; font-weight: bold;">Gratuite</span>
+            </div>
+            <div class="price-line total">
+                <span>Total à payer</span>
+                <span><?= number_format($total, 0, ',', ' ') ?>€</span>
+            </div>
+        </aside>
         
     </div>
  <footer>
