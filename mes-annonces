@@ -20,7 +20,6 @@
             color:#0f172a;
         }
 
-        /* HEADER */
 
         nav{
             display:flex;
@@ -68,7 +67,6 @@
             font-size:18px;
         }
 
-        /* TOP ACTIONS */
 
         .top-actions{
             padding:0 60px 30px;
@@ -89,8 +87,6 @@
         .sell-btn:hover{
             background:#0ea5e9;
         }
-
-        /* ANNOUNCEMENTS */
 
         .annonces-container{
             padding:20px 60px 80px;
@@ -206,8 +202,6 @@
             padding:25px;
         }
 
-        /* RESPONSIVE */
-
         @media(max-width:950px){
 
             .annonce-card{
@@ -258,6 +252,167 @@
 </head>
 
 <body>
+<nav>
+
+        <div class="logo">
+            MercaTech
+        </div>
+
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="catalogue.html">Catalogue</a></li>
+            <li><a href="encheres.html">Enchères</a></li>
+			<li><a href="mes_annonces.html">Mes annonces</a></li>
+            <li><a href="connexion.html">Connexion</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="page-title">
+
+        <h1>Mes annonces 📦</h1>
+
+        <p>
+            Gérez tous les produits que vous avez mis en vente sur MercaTech.
+        </p>
+
+    </section>
+
+    <!-- boutons d'actions -->
+
+    <div class="top-actions">
+
+        <a href="vendre.html" class="sell-btn">
+            ➕ Ajouter une annonce ➕
+        </a>
+
+    </div>
+
+
+    <section class="annonces-container">
+
+        <!-- PRODUCT 1 -->
+        <div class="annonce-card">
+
+            <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?q=80&w=1170&auto=format&fit=crop" alt="PS5">
+
+            <div class="annonce-info">
+
+                <h2>PlayStation 5</h2>
+
+                <p>
+                    Console nouvelle génération avec SSD ultra rapide et graphismes 4K.
+                </p>
+
+                <div class="price">
+                    499€
+                </div>
+
+                <div class="status">
+                    ✅ En ligne
+                </div>
+
+            </div>
+
+            <div class="actions">
+
+                <a href="modifier.html">
+					<button class="btn btn-view">
+						⚙ Gérer l'annonce
+					</button>
+				</a>
+
+                <button class="btn btn-delete">
+                    ❌ Supprimer
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 2 -->
+        <div class="annonce-card">
+
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1170&auto=format&fit=crop" alt="iPhone">
+
+            <div class="annonce-info">
+
+                <h2>iPhone 15 Pro</h2>
+
+                <p>
+                    Smartphone Apple premium avec écran ProMotion et appareil photo avancé.
+                </p>
+
+                <div class="price">
+                    1299€
+                </div>
+
+                <div class="status">
+                    🔥 En négociation
+                </div>
+
+            </div>
+
+            <div class="actions">
+
+				 <a href="modifier.html">
+					<button class="btn btn-view">
+						⚙ Gérer l'annonce
+					</button>
+				</a>
+
+                <button class="btn btn-delete">
+                    ❌ Supprimer
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 3 -->
+        <div class="annonce-card">
+
+            <img src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1170&auto=format&fit=crop" alt="PC Gamer">
+
+            <div class="annonce-info">
+
+                <h2>PC Gamer RTX</h2>
+
+                <p>
+                    Configuration gaming ultra performante idéale pour le streaming et les jeux AAA.
+                </p>
+
+                <div class="price">
+                    1599€
+                </div>
+
+                <div class="status">
+                    ⏳ En attente
+                </div>
+
+            </div>
+
+            <div class="actions">
+                <a href="modifier.html">
+					<button class="btn btn-view">
+						⚙ Gérer l'annonce
+					</button>
+				</a>
+
+                <button class="btn btn-delete">
+                    ❌ Supprimer
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>
+            © 2026 MercaTech - Tous droits réservés
+        </p>
+    </footer>
 
 </body>
 </html>
