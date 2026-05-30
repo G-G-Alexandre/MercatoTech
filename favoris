@@ -262,7 +262,149 @@
         </ul>
 
     </nav>
+<div class="top-actions">
+
+        <a href="#" class="cart-button">
+            🛒 Voir le panier
+        </a>
+
+    </div>
+
+
+    <section class="page-title">
+
+        <h1>Mes Favoris ❤️</h1>
+
+        <p>
+            Retrouvez ici tous les produits que vous avez ajoutés à vos favoris.
+        </p>
+
+    </section>
+
+
+    <section class="favorites-container">
+
+        <!-- PRODUCT 1 -->
+
+        <div class="favorite-card">
+
+            <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?q=80&w=1170&auto=format&fit=crop" alt="PS5">
+
+            <div class="favorite-info">
+
+                <h2>PlayStation 5</h2>
+
+                <p>
+                    Console nouvelle génération avec graphismes ultra réalistes et SSD ultra rapide.
+                </p>
+
+                <div class="price">
+                    499€
+                </div>
+
+            </div>
+
+            <div class="buttons">
+
+                <button class="btn btn-cart">
+                    🛒 Ajouter au panier
+                </button>
+
+                <button class="btn btn-view">
+                    👁 Voir le produit
+                </button>
+
+                <button class="btn btn-remove">
+                    ❌ Retirer des favoris
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 2 -->
+
+        <div class="favorite-card">
+
+            <img src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1170&auto=format&fit=crop" alt="PC Gamer">
+
+            <div class="favorite-info">
+
+                <h2>PC Gamer RTX</h2>
+
+                <p>
+                    PC gaming haute performance parfait pour les jeux AAA et le streaming.
+                </p>
+
+                <div class="price">
+                    1599€
+                </div>
+
+            </div>
+
+            <div class="buttons">
+
+                <button class="btn btn-cart">
+                    🛒 Ajouter au panier
+                </button>
+
+                <button class="btn btn-view">
+                    👁 Voir le produit
+                </button>
+
+                <button class="btn btn-remove">
+                    ❌ Retirer des favoris
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 3 -->
+
+        <div class="favorite-card">
+
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1170&auto=format&fit=crop" alt="iPhone">
+
+            <div class="favorite-info">
+
+                <h2>iPhone 15 Pro</h2>
+
+                <p>
+                    Smartphone premium Apple avec écran ProMotion et appareil photo avancé.
+                </p>
+
+                <div class="price">
+                    1299€
+                </div>
+
+            </div>
+
+            <div class="buttons">
+
+                <button class="btn btn-cart">
+                    🛒 Ajouter au panier
+                </button>
+
+                <button class="btn btn-view">
+                    👁 Voir le produit
+                </button>
+
+                <button class="btn btn-remove">
+                    ❌ Retirer des favoris
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>
+            © 2026 MercaTech - Tous droits réservés
+        </p>
+    </footer>
 
 <\body>
-
 <\html>
