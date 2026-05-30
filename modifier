@@ -160,7 +160,119 @@
 </head>
 
 <body>
+    <nav>
+
+        <div class="logo">
+            MercaTech
+        </div>
+
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="catalogue.html">Catalogue</a></li>
+            <li><a href="encheres.html">Enchères</a></li>
+            <li><a href="mes_annonces.html">Mes annonces</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="container">
+
+        <div class="form-box">
+
+            <h1>Modifier l'annonce</h1>
+
+            <p class="subtitle">
+                Modifiez les informations de votre produit.
+            </p>
+
+            <form action="mes_annonces.html">
+
+                <label>Nom du produit</label>
+
+                <input 
+                    type="text"
+                    value="PlayStation 5"
+                    required
+                >
+
+                <label>Catégories</label>
+
+                <select required>
+
+                    <option selected>
+                        Gaming
+                    </option>
+
+                    <option>
+                        Smartphones
+                    </option>
+
+                    <option>
+                        Informatique
+                    </option>
+
+                    <option>
+                        Audio
+                    </option>
+
+                </select>
+
+                <label>Description</label>
+
+                <textarea required>Console nouvelle génération avec SSD ultra rapide et graphismes 4K.</textarea>
+
+                <div class="price-box">
+
+                    <div>
+
+                        <label>Prix (€)</label>
+
+                        <input 
+                            type="number"
+                            value="499"
+                            required
+                        >
+
+                    </div>
+
+                    <div>
+                        <label>Type de vente</label>
+                        <select>
+                            <option selected>
+                                Vente classique
+                            </option>
+
+                            <option>
+                                Enchère
+                            </option>
+
+                            <option>
+                                Négociation
+                            </option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <label>Modifier l'image</label>
+
+                <input type="file">
+
+                <button type="submit">
+                    💾 Enregistrer les changements effectués
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>
+            © 2026 MercaTech - Tous droits réservés
+        </p>
+    </footer>
 
 </body>
-
 </html>
