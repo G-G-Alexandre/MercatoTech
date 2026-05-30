@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mercato Nova</title>
+    <title>MercaTech</title>
 
     <style>
 
@@ -20,8 +20,6 @@
             background-color: #f1f5f9;
             color: #0f172a;
         }
-
-        /* HEADER */
 
         nav{
             display: flex;
@@ -54,8 +52,6 @@
         nav ul li a:hover{
             color: #38bdf8;
         }
-
-        /* HERO */
 
         .hero{
             height: 85vh;
@@ -286,7 +282,7 @@
     <nav>
 
         <div class="logo">
-            Mercato Nova
+            MercaTech
         </div>
 
         <ul>
@@ -451,7 +447,7 @@
     <footer>
 
         <p>
-            © 2026 Mercato Nova - Tous droits réservés
+            © 2026 MercaTech - Tous droits réservés
         </p>
 
     </footer>
