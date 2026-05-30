@@ -1,3 +1,17 @@
+<?php
+session_start();
+
+$commande_id = $_SESSION['derniere_commande'] ?? null;
+
+// Si aucune commande récente n'est trouvée en session, on redirige vers l'accueil
+if (!$commande_id) {
+    header("Location: catalogue.php");
+    exit;
+}
+
+// Optionnel : Effacer l'ID de session pour que l'accès direct futur à cette page soit bloqué
+unset($_SESSION['derniere_commande']);
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
