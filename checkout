@@ -205,9 +205,75 @@
 </head>
 <body>
 
-    <nav>
+  <nav>
         <a href="accueil.php" class="logo">Mercato Nova</a>
-    </nav>
+ </nav>
+<div class="checkout-container">
+        <main class="payment-form">
+            <h1>🔒 Paiement Sécurisé</h1>
+            <p style="color: #64748b; margin-bottom: 25px;">Complétez votre commande en toute sécurité. Les données de test sont acceptées.</p>
+
+            <?php if (!empty($erreur)): ?>
+                <div class="alert-error"><?= htmlspecialchars($erreur) ?></div>
+            <?php endif; ?>
+
+            <form method="POST" action="checkout.php">
+                <div class="form-section">
+                    <h3>1. Adresse de livraison</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Prénom</label>
+                            <input type="text" name="prenom" placeholder="Jean" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Nom</label>
+                            <input type="text" name="nom" placeholder="Dupond" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Adresse postale</label>
+                        <input type="text" name="adresse" placeholder="12 Rue de la Paix" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Code Postal</label>
+                            <input type="text" name="cp" placeholder="75002" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Ville</label>
+                            <input type="text" name="ville" placeholder="Paris" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3>2. Mode de paiement (Carte Bancaire)</h3>
+                    <div class="form-group">
+                        <label>Nom sur la carte</label>
+                        <input type="text" name="nom_carte" placeholder="Jean Dupond" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Numéro de carte</label>
+                        <input type="text" name="num_carte" placeholder="4970 1234 5678 9000" maxlength="19" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Date d'expiration</label>
+                            <input type="text" name="exp" placeholder="MM/YY" maxlength="5" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Code de sécurité (CVV)</label>
+                            <input type="text" name="cvv" placeholder="123" maxlength="3" required>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="pay-btn">Confirmer et Payer <?= number_format($total, 0, ',', ' ') ?>€</button>
+            </form>
+        </main>
+
+        
+    </div>
  <footer>
         <p>© 2026 Mercato Nova - Tunnel de paiement de démonstration</p>
 </footer>
