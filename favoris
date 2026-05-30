@@ -52,8 +52,6 @@
             color: #38bdf8;
         }
 
-        /* PANIER TOP RIGHT */
-
         .top-actions{
             display: flex;
             justify-content: flex-end;
@@ -74,8 +72,6 @@
             background-color: #1e293b;
         }
 
-        /* PAGE TITLE */
-
         .page-title{
             padding: 30px 60px 20px;
         }
@@ -90,8 +86,6 @@
             color: #64748b;
             font-size: 18px;
         }
-
-        /* FAVORITES */
 
         .favorites-container{
             padding: 20px 60px 80px;
