@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connexion - Mercato Nova</title>
+
+    <title>Connexion - MercaTech</title>
+
     <style>
 
         *{
@@ -126,7 +129,7 @@
     <nav>
 
         <div class="logo">
-            Mercato Nova
+            MercaTech
         </div>
 
         <ul>
@@ -162,12 +165,11 @@
         </div>
 
     </section>
+
     <footer>
-
         <p>
-            © 2026 Mercato Nova - Tous droits réservés
+            © 2026 MercaTech - Tous droits réservés
         </p>
-
     </footer>
 
 </body>
