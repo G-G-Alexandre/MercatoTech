@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enchères - Mercato Nova</title>
+    <title>Enchères - MercaTech</title>
 
     <style>
 
@@ -19,8 +19,6 @@
             background-color: #f8fafc;
             color: #0f172a;
         }
-
-        /* HEADER */
 
         nav{
             display: flex;
@@ -55,8 +53,6 @@
             color: #38bdf8;
         }
 
-        /* HERO */
-
         .hero{
             background: linear-gradient(to right, #0f172a, #1e3a8a);
             color: white;
@@ -73,8 +69,6 @@
             font-size: 22px;
             color: #cbd5e1;
         }
-
-        /* SEARCH BAR */
 
         .top-bar{
             display: flex;
@@ -118,8 +112,6 @@
             color: #0284c7;
             font-size: 18px;
         }
-
-        /* AUCTIONS */
 
         .auctions-section{
             padding: 60px;
@@ -186,8 +178,6 @@
             font-size: 18px;
         }
 
-        /* BID SECTION */
-
         .bid-section{
             display: flex;
             gap: 10px;
@@ -234,8 +224,6 @@
 			background-color: #0ea5e9;
 		}
 
-        /* FOOTER */
-
         footer{
             background-color: #0f172a;
             text-align: center;
@@ -244,8 +232,6 @@
             margin-top: 60px;
             border-top: 1px solid #1e293b;
         }
-
-        /* RESPONSIVE */
 
         @media(max-width: 900px){
 
@@ -290,12 +276,9 @@
 
 <body>
 
-    <!-- HEADER -->
-
     <nav>
-
         <div class="logo">
-            Mercato Nova
+            MercaTech
         </div>
 
         <ul>
@@ -308,8 +291,6 @@
 
     </nav>
 
-    <!-- HERO -->
-
     <section class="hero">
 
         <h1>Enchères en direct 🔥</h1>
@@ -319,8 +300,6 @@
         </p>
 
     </section>
-
-    <!-- SEARCH BAR -->
 
     <section class="top-bar">
 
@@ -340,7 +319,6 @@
 
     </section>
 
-    <!-- AUCTIONS -->
 
     <section class="auctions-section">
 
@@ -351,7 +329,6 @@
         <div class="auction-grid">
 
             <!-- AUCTION 1 -->
-
             <div class="auction-card">
 
                 <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?q=80&w=1170&auto=format&fit=crop" alt="PS5">
@@ -399,7 +376,6 @@
             </div>
 
             <!-- AUCTION 2 -->
-
             <div class="auction-card">
 
                 <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1170&auto=format&fit=crop" alt="iPhone">
@@ -447,7 +423,6 @@
             </div>
 
             <!-- AUCTION 3 -->
-
             <div class="auction-card">
 
                 <img src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1170&auto=format&fit=crop" alt="PC Gamer">
@@ -498,16 +473,11 @@
 
     </section>
 
-    <!-- FOOTER -->
-
     <footer>
-
         <p>
-            © 2026 Mercato Nova - Tous droits réservés
+            © 2026 MercaTech - Tous droits réservés
         </p>
-
     </footer>
 
 </body>
-
 </html>
